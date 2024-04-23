@@ -205,3 +205,25 @@ See the HTML page with a table of users at the following link: [localhost:8080/u
 ### 5. Send a POST request to an online testing website
 
 `go run http/client/5-postform.go`
+
+## json
+
+### 1. Transform a Go struct and a slice of structs into JSON format
+
+`go run json/1-encoding.go`
+
+### 2. Decode a JSON string into a Go struct and a slice of structs
+
+`go run json/2-decoding.go`
+
+### 3. Prettify output with MarshalIndent
+
+`go run json/3-pretty_print.go`
+
+### 4. Read JSON data from a file and decode it to a slice of user structs
+
+`go run json/4-read_file.go`
+
+### 5. Read data from a web service using the built-in Go HTTP client
+
+`go run json/5-astros.go`
