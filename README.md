@@ -179,3 +179,29 @@ See the HTML form located at "http/server/9-get-post/form.html" at the following
 `go run http/server/11-template.go`
 
 See the HTML page with a table of users at the following link: [localhost:8080/users](http://localhost:8080/users)
+
+## http/client
+
+### 1. Create a GET request to a small website and get the status code of the request
+
+`go run http/client/1-status-code.go`
+
+*200 OK*
+
+*200*
+
+### 2. Create a simple GET request and print the received data to the console
+
+`go run http/client/2-get-request.go`
+
+### 3. Issue a HEAD request with http.Head and prints all the data of the response header
+
+`go run http/client/3-head-request.go`
+
+### 4. Set a User-Agent header for its GET request
+
+`go run http/client/4-user-agent-header.go`
+
+### 5. Send a POST request to an online testing website
+
+`go run http/client/5-postform.go`
