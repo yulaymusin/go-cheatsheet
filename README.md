@@ -257,3 +257,15 @@ See the HTML page with a table of users at the following link: [localhost:8080/u
 ### 7. CSV-to-JSON: read "csv/csv-files/users.csv" file and convert its data to JSON
 
 `go run csv/7-csv-json.go`
+
+### Extra 1. Write records to "csv/csv-files/persons-writed.csv" file using "github.com/gocarina/gocsv"
+
+`go run csv/extra/1-write-gocsv.go`
+
+### Extra 2. Read "csv/csv-files/persons-writed.csv" using "github.com/gocarina/gocsv"
+
+`go run csv/extra/2-read-gocsv.go`
+
+### Extra 3. Read "csv/extra/json2csv_input.json" and convert it to "csv/csv-files/json2csv_output.csv" CSV-file using "github.com/yukithm/json2csv"
+
+`go run csv/extra/3-json2csv.go`
