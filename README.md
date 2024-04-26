@@ -227,3 +227,33 @@ See the HTML page with a table of users at the following link: [localhost:8080/u
 ### 5. Read data from a web service using the built-in Go HTTP client
 
 `go run json/5-astros.go`
+
+## csv
+
+### 1. Read values from "csv/csv-files/numbers.csv" file
+
+`go run csv/1-read.go`
+
+### 2. ReadAll values from "csv/csv-files/users.csv" file
+
+`go run csv/2-readall.go`
+
+### 3. Read "csv/csv-files/users-delimiter.csv" where fields are separated with a semicolon
+
+`go run csv/3-delimiter.go`
+
+### 4. Write records to "csv/csv-files/users-writed.csv" file
+
+`go run csv/4-write.go`
+
+### 5. Append a new record to "csv/csv-files/users-writed.csv" file
+
+`go run csv/5-append.go`
+
+### 6. Another example to read values from "csv/csv-files/users.csv" file
+
+`go run csv/6-read.go`
+
+### 7. CSV-to-JSON: read "csv/csv-files/users.csv" file and convert its data to JSON
+
+`go run csv/7-csv-json.go`
