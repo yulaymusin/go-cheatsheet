@@ -275,3 +275,25 @@ See the HTML page with a table of users at the following link: [localhost:8080/u
 ### for-loop
 
 `go run basic/for-loop.go`
+
+## mutexes
+
+### Example 1 of the race condition
+
+`go run mutexes/1-race-condition.go && go run mutexes/1-race-condition.go && go run mutexes/1-race-condition.go && go run mutexes/1-race-condition.go && go run mutexes/1-race-condition.go`
+
+`go run mutexes/1-mutex.go && go run mutexes/1-mutex.go && go run mutexes/1-mutex.go && go run mutexes/1-mutex.go && go run mutexes/1-mutex.go`
+
+### Example 2 of the race condition
+
+`go run mutexes/2-race-condition.go && go run mutexes/2-race-condition.go && go run mutexes/2-race-condition.go && go run mutexes/2-race-condition.go && go run mutexes/2-race-condition.go`
+
+`go run mutexes/2-mutex.go && go run mutexes/2-mutex.go && go run mutexes/2-mutex.go && go run mutexes/2-mutex.go && go run mutexes/2-mutex.go`
+
+### Concurrent map iteration and map write
+
+`go run mutexes/3-concurrent-iter-write.go`
+
+`go run mutexes/3-mutex.go`
+
+`go run mutexes/3-rwmutex.go`
