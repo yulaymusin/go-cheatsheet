@@ -300,6 +300,8 @@ See the HTML page with a table of users at the following link: [localhost:8080/u
 
 ## basic
 
+`go run basic/0-basic-program.go`
+
 `go run basic/1-for-loop.go`
 
 `go run basic/2-multiple-values-from-func.go`
@@ -339,6 +341,22 @@ See the HTML page with a table of users at the following link: [localhost:8080/u
 `go run basic/19-largest-smallest-in-array.go`
 
 `go run basic/20-prime-num.go`
+
+`go run basic/21-factorial-of-num-recursion.go`
+
+`go run basic/22-num-of-words.go`
+
+`go run basic/23-bubble-sort.go`
+
+`go run basic/24-permutations.go`
+
+`go run basic/25-boyer-moore-search.go`
+
+`go run basic/26-longest-subsequence-in-array.go`
+
+`go run basic/27-binary-tree.go`
+
+`go run basic/28-stack-array.go`
 
 ## atomic
 
