@@ -347,3 +347,11 @@ See the HTML page with a table of users at the following link: [localhost:8080/u
 `go run atomic/1-wrong-output.go && go run atomic/1-wrong-output.go && go run atomic/1-wrong-output.go && go run atomic/1-wrong-output.go && go run atomic/1-wrong-output.go`
 
 `go run atomic/1-correct-output.go && go run atomic/1-correct-output.go && go run atomic/1-correct-output.go && go run atomic/1-correct-output.go && go run atomic/1-correct-output.go`
+
+## channels
+
+`go run channels/1-hello.go`
+
+`go run channels/2-sum-of-squares.go`
+
+`go run channels/3-merge-sort.go`
