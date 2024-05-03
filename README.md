@@ -297,3 +297,45 @@ See the HTML page with a table of users at the following link: [localhost:8080/u
 `go run mutexes/3-mutex.go`
 
 `go run mutexes/3-rwmutex.go`
+
+## basic
+
+`go run basic/1-for-loop.go`
+
+`go run basic/2-multiple-values-from-func.go`
+
+`go run basic/3-strings-builder.go`
+
+`go run basic/4-pointer.go`
+
+`go run basic/5-type-conversion.go`
+
+`go run basic/6-copy-map.go`
+
+`go run basic/7-reverse-int-slice.go`
+
+`go run basic/8-oop.go`
+
+`go run basic/9-check-var-type.go`
+
+`go run basic/10-concatenate-str.go`
+
+`go run basic/11-func-closures.go`
+
+`go run basic/12-implement-stack-lifo.go`
+
+`go run basic/13-slice-chars-permutate.go`
+
+`go run basic/14-vars-values-swap.go`
+
+`go run basic/15-min-max.go`
+
+`go run basic/16-check-slice-is-empty.go`
+
+`go run basic/17-sum-of-squares.go`
+
+`go run basic/18-sum-even-from-1-to-100.go`
+
+`go run basic/19-largest-smallest-in-array.go`
+
+`go run basic/20-prime-num.go`

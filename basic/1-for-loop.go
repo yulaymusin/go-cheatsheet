@@ -73,4 +73,10 @@ outside: // declare the label
 		}
 	}
 
+	// Increment
+	sum := 0
+	for i := 0; i < 10; i++ {
+		sum++
+	}
+	fmt.Println(sum)
 }
