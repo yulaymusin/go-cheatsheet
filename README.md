@@ -339,3 +339,11 @@ See the HTML page with a table of users at the following link: [localhost:8080/u
 `go run basic/19-largest-smallest-in-array.go`
 
 `go run basic/20-prime-num.go`
+
+## atomic
+
+### Example 1
+
+`go run atomic/1-wrong-output.go && go run atomic/1-wrong-output.go && go run atomic/1-wrong-output.go && go run atomic/1-wrong-output.go && go run atomic/1-wrong-output.go`
+
+`go run atomic/1-correct-output.go && go run atomic/1-correct-output.go && go run atomic/1-correct-output.go && go run atomic/1-correct-output.go && go run atomic/1-correct-output.go`
