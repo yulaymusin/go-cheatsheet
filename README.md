@@ -358,6 +358,8 @@ See the HTML page with a table of users at the following link: [localhost:8080/u
 
 `go run basic/28-stack-array.go`
 
+`go run basic/29-split-strings.go`
+
 ## atomic
 
 ### Example 1
