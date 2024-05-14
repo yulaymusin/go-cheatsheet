@@ -375,3 +375,23 @@ See the HTML page with a table of users at the following link: [localhost:8080/u
 `go run channels/2-sum-of-squares.go`
 
 `go run channels/3-merge-sort.go`
+
+## problem-list - easy
+
+### 1. Two sum
+
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
+
+`go run problem-list/easy/1-two-sum.go`
+
+### 2. Palindrome number without converting the integer to a string
+
+Given an integer x, return true if x is a palindrome, and false otherwise.
+
+`go run problem-list/easy/2-palindrome-no-int2str.go`
+
+### 3. Roman to integer
+
+Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+
+`go run problem-list/easy/3-roman-to-int.go`
