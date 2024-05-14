@@ -395,3 +395,17 @@ Given an integer x, return true if x is a palindrome, and false otherwise.
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
 `go run problem-list/easy/3-roman-to-int.go`
+
+### 4. Add two numbers (non-linked lists)
+
+You are given two non-empty lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a list.
+
+Example:
+
+Input: l1 = [2,4,3], l2 = [5,6,4]
+
+Output: [7,0,8]
+
+Explanation: 342 + 465 = 807
+
+`go run problem-list/easy/4-add-two-numbers.go`
