@@ -270,12 +270,6 @@ See the HTML page with a table of users at the following link: [localhost:8080/u
 
 `go run csv/extra/3-json2csv.go`
 
-## basic
-
-### for-loop
-
-`go run basic/for-loop.go`
-
 ## mutexes
 
 ### Example 1 of the race condition
@@ -360,6 +354,14 @@ See the HTML page with a table of users at the following link: [localhost:8080/u
 
 `go run basic/29-split-strings.go`
 
+#### Sorting a slices of strings and checking whether it is in sorted form or not
+
+`go run basic/30-sort-slice-str.go`
+
+#### Sorting a slices of strings by length then alphabetically
+
+`go run basic/31-sort-slice-str-len-alphabet.go`
+
 ## atomic
 
 ### Example 1
@@ -376,7 +378,7 @@ See the HTML page with a table of users at the following link: [localhost:8080/u
 
 `go run channels/3-merge-sort.go`
 
-## problem-list - easy
+## problem-list/easy
 
 ### 1. Two sum
 
