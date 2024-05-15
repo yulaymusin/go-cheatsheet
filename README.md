@@ -362,6 +362,10 @@ See the HTML page with a table of users at the following link: [localhost:8080/u
 
 `go run basic/31-sort-slice-str-len-alphabet.go`
 
+#### Length of shortest string in a slice of strings
+
+`go run basic/32-shortest-len.go`
+
 ## atomic
 
 ### Example 1
