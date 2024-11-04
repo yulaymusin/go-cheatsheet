@@ -366,6 +366,10 @@ See the HTML page with a table of users at the following link: [localhost:8080/u
 
 `go run basic/32-shortest-len.go`
 
+#### An example of how to parse the HTML code
+
+`go run basic/33-parse-html-table.go`
+
 ## atomic
 
 ### Example 1
